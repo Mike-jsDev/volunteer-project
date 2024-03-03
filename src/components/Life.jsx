@@ -41,7 +41,7 @@ export const Life = ({ id }) => {
       ) : (
         <div className="content-container">
           <Title level={2} style={{ color: "white", textAlign: "center" }}>
-            After 24.02.2022
+            Но мы Выжили ! Потери есть ....
           </Title>
           <Title
             level={4}

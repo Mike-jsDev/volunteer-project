@@ -28,10 +28,10 @@ export const About = ({ id }) => {
         ) : (
           <>
             <Typography>
-              <Title level={2}>After 24.02.2022</Title>
+              <Title level={2}>24.02.2022. Пришла война.</Title>
               <Title level={4}>
-                Lorem ipsum, dolor sit amet consectetur adipis, dolor sit amet
-                consectetur adipis
+                Детскую горнолыжную школу не посетило 302 ребёнка. Более 3000 т.
+                Любителей били лишены возможности посетить горнолыжный комплекс.
               </Title>
             </Typography>
             <div className="image-container">
