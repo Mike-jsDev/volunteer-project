@@ -1,17 +1,18 @@
-import logo from './kh-ski.png';
-import './App.css';
+import { About } from "./components/About";
+import { Footer } from "./components/Footer";
+import { HomeSection } from "./components/Home";
+import { Life } from "./components/Life";
+import "./scss/main.scss";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <br />
-        <br />
-        <h1>
-          Before and After
-        </h1>
-      </header>
+    <div className="app-container">
+      <HomeSection />
+      <About id={"about"} />
+      <Life id={"life"} />
+      <About id={"about-after"} />
+      <Life id={"life-after"} />
+      <Footer />
     </div>
   );
 }

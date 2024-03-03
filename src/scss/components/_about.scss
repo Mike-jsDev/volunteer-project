@@ -1,0 +1,35 @@
+.about-section {
+  background-color: $light;
+
+  &.about-after {
+    background-color: $grey;
+  }
+}
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.image-container {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 24px 0;
+}
+
+.image-about {
+  border-radius: $radius;
+  width: 48%;
+  object-fit: fill;
+  max-height: max-content;
+  max-width: 100%;
+
+  .about-after & {
+    aspect-ratio: 1;
+  }
+}

@@ -1,0 +1,93 @@
+.photo-section {
+  background-color: $indigo;
+  padding: 30px 0;
+
+  &.life-after {
+    background-color: $charcoal;
+  }
+}
+
+.photo-section-title {
+  color: $light;
+}
+
+.photo-grid {
+  display: grid;
+  justify-content: center;
+  gap: 15px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 16px 0;
+}
+
+.photo-grid-tile {
+  position: relative;
+  min-width: 125px;
+  min-height: 125px;
+  aspect-ratio: 1 / 1;
+  border-radius: $radius;
+  overflow: hidden;
+}
+
+.tile-description {
+  background-color: $light;
+  padding: 25px 30px;
+  display: flex;
+  align-items: center;
+}
+
+//Ant Design styles below
+
+.ant-image {
+  display: grid;
+  .ant-image-img {
+    .photo-grid-tile & {
+      object-fit: cover;
+    }
+  
+    // .tile-4 & {
+    //   object-position: left;
+    // }
+  }
+}
+
+.ant-image-preview-mask {
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+.ant-image-preview-img {
+  width: 100%;
+  max-width: 992px;
+  height: auto;
+}
+
+.ant-image-preview-switch-left,
+.ant-image-preview-switch-right {
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.ant-image-preview-operations {
+  line-height: unset;
+
+  .ant-image-preview-operations-operation {
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    margin-right: 10px;
+
+    &~.ant-image-preview-operations-operation {
+      display: none;
+    }
+  }
+}
+
+.ant-image-mask {
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+}
+
+.ant-image-mask-info {
+  display: none;
+}
+
+//Ant Design styles end
