@@ -29,7 +29,8 @@ export const Footer = () => {
                 Close
               </Button>,
             ]}
-            width={"auto"}
+            width={"90%"}
+            height={"90%"}
             onOk={() => setIsModalOpen(false)}
             onCancel={() => setIsModalOpen(false)}
           >

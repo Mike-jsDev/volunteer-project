@@ -42,6 +42,10 @@
   .ant-image-img {
     .photo-grid-tile & {
       object-fit: cover;
+
+      &.life-after {
+        object-position: top;
+      }
     }
   }
 }
