@@ -43,10 +43,6 @@
     .photo-grid-tile & {
       object-fit: cover;
     }
-  
-    // .tile-4 & {
-    //   object-position: left;
-    // }
   }
 }
 
@@ -57,8 +53,9 @@
 
 .ant-image-preview-img {
   width: 100%;
-  max-width: 992px;
+  max-width: 992px !important;
   height: auto;
+  object-fit: contain;
 }
 
 .ant-image-preview-switch-left,
