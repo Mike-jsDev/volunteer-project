@@ -22,6 +22,10 @@ body {
   scroll-behavior: smooth;
 }
 
+section {
+  width: 100%;
+}
+
 .app-container {
   display: flex;
   flex-direction: column;

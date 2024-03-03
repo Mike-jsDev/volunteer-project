@@ -20,12 +20,6 @@ export const Footer = () => {
             not for commercial use. Presentation only.
           </Text>
         </Typography>
-        <Typography>
-          <Text level={4} style={{ color: "white" }}>
-            All rights reserved {CURRENT_YEAR}.
-          </Text>
-        </Typography>
-
         <>
           <Button onClick={showModal}>Code of legal entity</Button>
           <Modal
@@ -44,6 +38,11 @@ export const Footer = () => {
             </div>
           </Modal>
         </>
+        <Typography>
+          <Text level={4} style={{ color: "white" }}>
+            All rights reserved {CURRENT_YEAR}.
+          </Text>
+        </Typography>
       </div>
     </section>
   );

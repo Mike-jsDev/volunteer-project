@@ -5,11 +5,7 @@ export const Header = () => {
   return (
     <div className="header-wrapper">
       <Space wrap size={16}>
-        <Avatar
-          shape="square"
-          size="large"
-          icon={<img src={logo} alt="logo" />}
-        />
+        <Avatar shape="square" size={56} icon={<img src={logo} alt="logo" />} />
       </Space>
     </div>
   );

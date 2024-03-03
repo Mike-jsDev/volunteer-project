@@ -3,7 +3,7 @@
   padding: 30px 0;
 
   &.life-after {
-    background-color: $charcoal;
+    background-color: $blue;
   }
 }
 
@@ -15,7 +15,7 @@
   display: grid;
   justify-content: center;
   gap: 15px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
   padding: 16px 0;
 }
 
@@ -29,7 +29,7 @@
 }
 
 .tile-description {
-  background-color: $light;
+  background-color: $grey;
   padding: 25px 30px;
   display: flex;
   align-items: center;
