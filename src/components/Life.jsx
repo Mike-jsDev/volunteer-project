@@ -58,10 +58,7 @@ export const Life = ({ id }) => {
           </Title>
           <div className="photo-grid">
             <div className="photo-grid-tile tile-description">
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipis, dolor sit amet
-                consectetur adipis
-              </p>
+              <p>Фото сделаны после разминирования территории</p>
             </div>
             <Image.PreviewGroup>
               {photoGridAfterImg.map((item, index) => (
