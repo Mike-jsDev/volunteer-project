@@ -11,7 +11,7 @@
   z-index: 1;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: $black_opacity;
   mix-blend-mode: darken;
   transition: background-color 0.25s ease-in-out;
 }
