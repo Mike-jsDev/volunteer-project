@@ -19,6 +19,11 @@ import img18 from "../images/photoGridAfter/img18.jpg";
 import img19 from "../images/photoGridAfter/img19.jpg";
 
 export const photoGridAfterImg = [
+  img14,
+  img15,
+  img16,
+  img17,
+  img18,
   img1,
   img2,
   img3,
@@ -32,10 +37,5 @@ export const photoGridAfterImg = [
   img11,
   img12,
   img13,
-  img14,
-  img15,
-  img16,
-  img17,
-  img18,
   img19,
 ];
