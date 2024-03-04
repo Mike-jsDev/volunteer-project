@@ -16,7 +16,7 @@ export const About = ({ id }) => {
             <Typography>
               <Title level={2}>
                 The &quot;Kharkiv Switzerland&quot; - the first ski resort in
-                Kharkiv, located less than 100 km from the Russian border
+                Kharkiv, located less than 40 km from the Russian border
               </Title>
               <Title level={4}>
                 During the full-scale invasion, the troops approached the
