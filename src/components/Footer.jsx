@@ -63,8 +63,6 @@ export const Footer = () => {
             </div>
           </Modal>
         </div>
-
-        <></>
       </div>
     </section>
   );
