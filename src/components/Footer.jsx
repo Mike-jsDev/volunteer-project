@@ -15,12 +15,36 @@ export const Footer = () => {
   return (
     <section className="footer-container" id="contact">
       <div className="footer-wrapper content-container">
-        <Typography>
-          <Text style={{ color: "white", textTransform: "uppercase" }}>
-            not for commercial use. Presentation only.
-          </Text>
-        </Typography>
-        <>
+        <div className="contacts flex-tile">
+          <Typography>
+            <Text style={{ color: "white", textTransform: "uppercase" }}>
+              ZIM SV LLC
+            </Text>
+          </Typography>
+          <Typography>
+            <Text style={{ color: "white" }}>
+              Director: Vasiliev Grigory Valeryevich
+            </Text>
+          </Typography>
+          <Typography>
+            <Text style={{ color: "white", textTransform: "uppercase" }}>
+              +38 (093) 4061307
+            </Text>
+          </Typography>
+        </div>
+        <div className="warning flex-tile">
+          <Typography>
+            <Text style={{ color: "white", textTransform: "uppercase" }}>
+              not for commercial use. Presentation only.
+            </Text>
+          </Typography>
+          <Typography>
+            <Text level={4} style={{ color: "white" }}>
+              All rights reserved {CURRENT_YEAR}.
+            </Text>
+          </Typography>
+        </div>
+        <div className="modal flex-tile">
           <Button onClick={showModal}>Code of legal entity</Button>
           <Modal
             open={isModalOpen}
@@ -38,12 +62,9 @@ export const Footer = () => {
               <iframe src={pathToPdf} width="100%" height="400px"></iframe>
             </div>
           </Modal>
-        </>
-        <Typography>
-          <Text level={4} style={{ color: "white" }}>
-            All rights reserved {CURRENT_YEAR}.
-          </Text>
-        </Typography>
+        </div>
+
+        <></>
       </div>
     </section>
   );

@@ -50,8 +50,11 @@ export const Life = ({ id }) => {
               textAlign: "center",
             }}
           >
-            Lorem ipsum, dolor sit amet consectetur adipis, dolor sit amet
-            consectetur adipis
+            пункт проката горнолыжного снаряжения уничтожен, повреждена
+            осколками горнолыжная школа, ретрак повреждён осколками,касса
+            повреждена осколками, повреждены два подьемника, уничтожена система
+            оснижения, насосная уничтожена от взрыва, полностью повреждено
+            освещение горнолыжного спуска.
           </Title>
           <div className="photo-grid">
             <div className="photo-grid-tile tile-description">
