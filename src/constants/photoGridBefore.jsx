@@ -20,8 +20,8 @@ import img19 from "../images/photoGridBefore/img19.jpg";
 
 export const photoGridBeforeImg = [
   img18,
-  img1,
   img2,
+  img1,
   img3,
   img4,
   img5,
