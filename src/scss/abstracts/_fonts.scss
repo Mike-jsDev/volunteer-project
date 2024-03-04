@@ -1,118 +1,82 @@
 @font-face {
-  font-family: 'Hind Siliguri';
-  src: url('../../fonts/HindSiliguri-Light.eot');
-  src: url('../../fonts/HindSiliguri-Light.eot?#iefix') format('embedded-opentype'),
-    url('../../fonts/HindSiliguri-Light.woff2') format('woff2'),
-    url('../../fonts/HindSiliguri-Light.woff') format('woff'),
-    url('../../fonts/HindSiliguri-Light.ttf') format('truetype');
+  font-family: 'Manrope';
+  src: url('../../fonts/Manrope-Light.eot');
+  src: url('../../fonts/Manrope-Light.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/Manrope-Light.woff2') format('woff2'),
+    url('../../fonts/Manrope-Light.woff') format('woff'),
+    url('../../fonts/Manrope-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Hind Siliguri';
-  src: url('../../fonts/HindSiliguri-Medium.eot');
-  src: url('../../fonts/HindSiliguri-Medium.eot?#iefix') format('embedded-opentype'),
-    url('../../fonts/HindSiliguri-Medium.woff2') format('woff2'),
-    url('../../fonts/HindSiliguri-Medium.woff') format('woff'),
-    url('../../fonts/HindSiliguri-Medium.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Hind Siliguri';
-  src: url('../../fonts/HindSiliguri-Regular.eot');
-  src: url('../../fonts/HindSiliguri-Regular.eot?#iefix') format('embedded-opentype'),
-    url('../../fonts/HindSiliguri-Regular.woff2') format('woff2'),
-    url('../../fonts/HindSiliguri-Regular.woff') format('woff'),
-    url('../../fonts/HindSiliguri-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Hind Siliguri';
-  src: url('../../fonts/HindSiliguri-Bold.eot');
-  src: url('../../fonts/HindSiliguri-Bold.eot?#iefix') format('embedded-opentype'),
-    url('../../fonts/HindSiliguri-Bold.woff2') format('woff2'),
-    url('../../fonts/HindSiliguri-Bold.woff') format('woff'),
-    url('../../fonts/HindSiliguri-Bold.ttf') format('truetype');
+  font-family: 'Manrope';
+  src: url('../../fonts/Manrope-Bold.eot');
+  src: url('../../fonts/Manrope-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/Manrope-Bold.woff2') format('woff2'),
+    url('../../fonts/Manrope-Bold.woff') format('woff'),
+    url('../../fonts/Manrope-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: url('../../fonts/Montserrat-Regular.eot');
-  src: url('../../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
-    url('../../fonts/Montserrat-Regular.woff2') format('woff2'),
-    url('../../fonts/Montserrat-Regular.woff') format('woff'),
-    url('../../fonts/Montserrat-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Montserrat';
-  src: url('../../fonts/Montserrat-Medium.eot');
-  src: url('../../fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
-    url('../../fonts/Montserrat-Medium.woff2') format('woff2'),
-    url('../../fonts/Montserrat-Medium.woff') format('woff'),
-    url('../../fonts/Montserrat-Medium.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Montserrat';
-  src: url('../../fonts/Montserrat-Light.eot');
-  src: url('../../fonts/Montserrat-Light.eot?#iefix') format('embedded-opentype'),
-    url('../../fonts/Montserrat-Light.woff2') format('woff2'),
-    url('../../fonts/Montserrat-Light.woff') format('woff'),
-    url('../../fonts/Montserrat-Light.ttf') format('truetype');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Montserrat';
-  src: url('../../fonts/Montserrat-SemiBold.eot');
-  src: url('../../fonts/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
-    url('../../fonts/Montserrat-SemiBold.woff2') format('woff2'),
-    url('../../fonts/Montserrat-SemiBold.woff') format('woff'),
-    url('../../fonts/Montserrat-SemiBold.ttf') format('truetype');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Montserrat';
-  src: url('../../fonts/Montserrat-Bold.eot');
-  src: url('../../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
-    url('../../fonts/Montserrat-Bold.woff2') format('woff2'),
-    url('../../fonts/Montserrat-Bold.woff') format('woff'),
-    url('../../fonts/Montserrat-Bold.ttf') format('truetype');
+  font-family: 'Manrope';
+  src: url('../../fonts/Manrope-ExtraBold.eot');
+  src: url('../../fonts/Manrope-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/Manrope-ExtraBold.woff2') format('woff2'),
+    url('../../fonts/Manrope-ExtraBold.woff') format('woff'),
+    url('../../fonts/Manrope-ExtraBold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Hind Siliguri';
-  src: url('../../fonts/HindSiliguri-SemiBold.eot');
-  src: url('../../fonts/HindSiliguri-SemiBold.eot?#iefix') format('embedded-opentype'),
-    url('../../fonts/HindSiliguri-SemiBold.woff2') format('woff2'),
-    url('../../fonts/HindSiliguri-SemiBold.woff') format('woff'),
-    url('../../fonts/HindSiliguri-SemiBold.ttf') format('truetype');
+  font-family: 'Manrope';
+  src: url('../../fonts/Manrope-ExtraLight.eot');
+  src: url('../../fonts/Manrope-ExtraLight.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/Manrope-ExtraLight.woff2') format('woff2'),
+    url('../../fonts/Manrope-ExtraLight.woff') format('woff'),
+    url('../../fonts/Manrope-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../../fonts/Manrope-Medium.eot');
+  src: url('../../fonts/Manrope-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/Manrope-Medium.woff2') format('woff2'),
+    url('../../fonts/Manrope-Medium.woff') format('woff'),
+    url('../../fonts/Manrope-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../../fonts/Manrope-Regular.eot');
+  src: url('../../fonts/Manrope-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/Manrope-Regular.woff2') format('woff2'),
+    url('../../fonts/Manrope-Regular.woff') format('woff'),
+    url('../../fonts/Manrope-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../../fonts/Manrope-SemiBold.eot');
+  src: url('../../fonts/Manrope-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/Manrope-SemiBold.woff2') format('woff2'),
+    url('../../fonts/Manrope-SemiBold.woff') format('woff'),
+    url('../../fonts/Manrope-SemiBold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
   font-display: swap;

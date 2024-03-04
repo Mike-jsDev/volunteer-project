@@ -14,20 +14,15 @@
 
 body {
   margin: 0;
-  font-family: $main_font !important;
+  font-family: $main_font;
   line-height: 1.215;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
 }
 
-h4, p, span {
-  font-family: $secondary_font !important;
-  margin-top: 0 !important;
-}
-
 h1 {
-  margin-bottom: 0.25em;
+  margin-bottom: 0.25em !important;
 }
 
 section {
@@ -50,7 +45,14 @@ section {
   @media (min-width: $breakpoint-lg) {
     max-width: 1140px;
   }
+
   @media (min-width: $breakpoint-xl) {
     max-width: 1320px;
   }
+}
+
+.title-container {
+  width: 100%;
+  max-width: 840px;
+  margin: 0 auto;
 }

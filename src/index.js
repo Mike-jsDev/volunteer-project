@@ -5,13 +5,14 @@ import { ConfigProvider } from "antd";
 
 const config = {
   token: {
-    fontFamily: "Monserrat, sans-serif",
+    fontFamily: "'Manrope', sans-serif",
+    colorText: "#0A1C52",
   },
   components: {
     Typography: {
       fontSizeHeading1: 60,
-      fontSizeHeading2: 32,
-      fontSizeHeading3: 20,
+      fontSizeHeading2: 40,
+      fontSizeHeading3: 24,
       fontSizeHeading4: 18,
       fontSizeHeading5: 16,
       lineHeightHeading1: 1.2,

@@ -1,9 +1,9 @@
 .photo-section {
-  background-color: $indigo;
-  padding: 60px 0;
+  background-color: $blue;
+  padding: 80px 0;
 
   &.life-after {
-    background-color: $blue;
+    background-color: $charcoal;
   }
 }
 
@@ -29,7 +29,7 @@
 }
 
 .tile-description {
-  background-color: $grey;
+  background-color: $light;
   padding: 25px 30px;
   display: flex;
   align-items: center;
@@ -39,6 +39,7 @@
 
 .ant-image {
   display: grid;
+
   .ant-image-img {
     .photo-grid-tile & {
       object-fit: cover;

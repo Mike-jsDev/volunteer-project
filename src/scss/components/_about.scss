@@ -1,10 +1,7 @@
 .about-section {
-  background-color: $grey;
-
-  &.about-after {
-    background-color: $cool_grey;
-  }
+  background-color: $light;
 }
+
 .about-wrapper {
   display: flex;
   flex-direction: column;
