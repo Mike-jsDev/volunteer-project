@@ -1,4 +1,5 @@
 import { About } from "./components/About";
+import { ClosingPhrase } from "./components/ClosingPhrase";
 import { Footer } from "./components/Footer";
 import { HomeSection } from "./components/Home";
 import { Life } from "./components/Life";
@@ -12,6 +13,7 @@ function App() {
       <Life id={"life"} />
       <About id={"about-after"} />
       <Life id={"life-after"} />
+      <ClosingPhrase />
       <Footer />
     </div>
   );

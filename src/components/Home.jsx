@@ -15,12 +15,12 @@ export const HomeSection = () => {
         <div className="bg-overlay"></div>
         <div className="home-content">
           <Typography>
-            <Title style={{ color: "white" }}>Мы основаны в 1968г</Title>
-            <Title level={4} style={{ color: "white" }}>
-              Любители становились профессионалами.
+            <Title style={{ color: "white" }}>
+              The &quot;Kharkiv Switzerland&quot; is the favorite place of all
+              Kharkiv citizens since 1968
             </Title>
             <Title level={4} style={{ color: "white" }}>
-              Горнолыжная школа вырастила профессионалов.
+              With love and from the bottom of heart
             </Title>
           </Typography>
         </div>

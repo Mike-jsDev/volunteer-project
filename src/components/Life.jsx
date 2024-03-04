@@ -19,14 +19,15 @@ export const Life = ({ id }) => {
               textAlign: "center",
             }}
           >
-            Lorem ipsum, dolor sit amet consectetur adipis, dolor sit amet
-            consectetur adipis
+            The &quot;Kharkiv Switzerland&quot; ski resort has become not just a
+            place for winter fun but also a corner where one can forget about
+            everyday worries and enjoy the beauty of winter nature
           </Title>
           <div className="photo-grid">
             <div className="photo-grid-tile tile-description">
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipis, dolor sit amet
-                consectetur adipis
+                It&apos;s where we grew up, trained, competed, had fun, relaxed
+                and just hung out
               </p>
             </div>
             <Image.PreviewGroup>
@@ -41,7 +42,7 @@ export const Life = ({ id }) => {
       ) : (
         <div className="content-container">
           <Title level={2} style={{ color: "white", textAlign: "center" }}>
-            Но мы Выжили ! Потери есть ....
+            The complex sustained significant losses but persevered!
           </Title>
           <Title
             level={4}
@@ -50,15 +51,15 @@ export const Life = ({ id }) => {
               textAlign: "center",
             }}
           >
-            пункт проката горнолыжного снаряжения уничтожен, повреждена
-            осколками горнолыжная школа, ретрак повреждён осколками,касса
-            повреждена осколками, повреждены два подьемника, уничтожена система
-            оснижения, насосная уничтожена от взрыва, полностью повреждено
-            освещение горнолыжного спуска.
+            The ski equipment rental center was destroyed, with debris damaging
+            the ski school, retractable roof, ticket booth, and two ski lifts.
+            As a result of the explosion, the pumping and snowmaking systems
+            were destroyed. The illumination along the ski slope has been
+            completely compromised
           </Title>
           <div className="photo-grid">
             <div className="photo-grid-tile tile-description">
-              <p>Фото сделаны после разминирования территории</p>
+              <p>The photos were taken after the demining of the area</p>
             </div>
             <Image.PreviewGroup>
               {photoGridAfterImg.map((item, index) => (

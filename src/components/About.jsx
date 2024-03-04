@@ -14,10 +14,13 @@ export const About = ({ id }) => {
         {id === "about" ? (
           <>
             <Typography>
-              <Title level={2}>Place</Title>
+              <Title level={2}>
+                The &quot;Kharkiv Switzerland&quot; - the first ski resort in
+                Kharkiv, located less than 100 km from the Russian border
+              </Title>
               <Title level={4}>
-                Lorem ipsum, dolor sit amet consectetur adipis, dolor sit amet
-                consectetur adipis
+                During the full-scale invasion, the troops approached the
+                complex almost to its doorstep
               </Title>
             </Typography>
             <div className="image-container">
@@ -28,10 +31,15 @@ export const About = ({ id }) => {
         ) : (
           <>
             <Typography>
-              <Title level={2}>24.02.2022. Пришла война.</Title>
+              <Title level={2}>
+                On February 24, 2022, Russia initiated a full-scale invasion
+                into Ukrainian territory
+              </Title>
               <Title level={4}>
-                Детскую горнолыжную школу не посетило 302 ребёнка. Более 3000 т.
-                Любителей били лишены возможности посетить горнолыжный комплекс.
+                Over 300 children were unable to attend the children&apos;s ski
+                school. More than 3000 skiing enthusiasts were deprived of the
+                opportunity to pursue their favorite activity in the area known
+                as the &quot;Kharkiv Switzerland&quot;
               </Title>
             </Typography>
             <div className="image-container">
