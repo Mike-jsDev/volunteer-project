@@ -3,6 +3,6 @@ import App from "./App";
 
 test("renders learn react link", () => {
   render(<App />);
-  const mainTitle = screen.getByText(/Experience is/i);
+  const mainTitle = screen.getByText(/Kharkiv Switzerland/i);
   expect(mainTitle).toBeInTheDocument();
 });
